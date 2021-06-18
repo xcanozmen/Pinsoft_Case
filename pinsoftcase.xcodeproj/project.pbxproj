@@ -3,29 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		36A622582678E9D200A99473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A622572678E9D200A99473 /* AppDelegate.swift */; };
 		36A6225A2678E9D200A99473 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A622592678E9D200A99473 /* SceneDelegate.swift */; };
-		36A6225C2678E9D200A99473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6225B2678E9D200A99473 /* ViewController.swift */; };
+		36A6225C2678E9D200A99473 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6225B2678E9D200A99473 /* SplashVC.swift */; };
 		36A6225F2678E9D200A99473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A6225D2678E9D200A99473 /* Main.storyboard */; };
 		36A622622678E9D200A99473 /* pinsoftcase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36A622602678E9D200A99473 /* pinsoftcase.xcdatamodeld */; };
 		36A622642678E9D500A99473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A622632678E9D500A99473 /* Assets.xcassets */; };
 		36A622672678E9D500A99473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A622652678E9D500A99473 /* LaunchScreen.storyboard */; };
+		36A622712678EE8B00A99473 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36A622702678EE8B00A99473 /* GoogleService-Info.plist */; };
+		36A622A72678F0F200A99473 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A622A62678F0F200A99473 /* Constants.swift */; };
+		36A622CC2679059900A99473 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A622CB2679059900A99473 /* NetworkMonitor.swift */; };
+		36A622D026792E1E00A99473 /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A622CF26792E1E00A99473 /* MoviesVC.swift */; };
+		36A622D52679F4C900A99473 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A622D42679F4C900A99473 /* Models.swift */; };
+		36A622F52679FD8900A99473 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A622F32679FD8900A99473 /* TableViewCell.swift */; };
+		36A622F62679FD8900A99473 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A622F42679FD8900A99473 /* TableViewCell.xib */; };
+		36A6232F267A20B800A99473 /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6232E267A20B700A99473 /* MovieDetailVC.swift */; };
+		36A62333267A33EF00A99473 /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A62332267A33EF00A99473 /* URLManager.swift */; };
+		36A62353267A92C000A99473 /* DetailTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A62351267A92BF00A99473 /* DetailTableVCell.swift */; };
+		36A62354267A92C000A99473 /* DetailTableVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A62352267A92BF00A99473 /* DetailTableVCell.xib */; };
+		36A62371267B3CF200A99473 /* FavoriteMoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A62370267B3CF100A99473 /* FavoriteMoviesVC.swift */; };
+		36A62374267B484300A99473 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A62373267B484300A99473 /* Extensions.swift */; };
+		E57899C2680D59933DA55146 /* Pods_pinsoftcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E23CA3A27B729011C92EBF /* Pods_pinsoftcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17F1966A8594165F2F48EFF4 /* Pods-pinsoftcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinsoftcase.release.xcconfig"; path = "Target Support Files/Pods-pinsoftcase/Pods-pinsoftcase.release.xcconfig"; sourceTree = "<group>"; };
+		1B09F596E3E04F945D8ADAD7 /* Pods-pinsoftcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinsoftcase.debug.xcconfig"; path = "Target Support Files/Pods-pinsoftcase/Pods-pinsoftcase.debug.xcconfig"; sourceTree = "<group>"; };
 		36A622542678E9D200A99473 /* pinsoftcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinsoftcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A622572678E9D200A99473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36A622592678E9D200A99473 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36A6225B2678E9D200A99473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36A6225B2678E9D200A99473 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		36A6225E2678E9D200A99473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36A622612678E9D200A99473 /* pinsoftcase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pinsoftcase.xcdatamodel; sourceTree = "<group>"; };
 		36A622632678E9D500A99473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A622662678E9D500A99473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36A622682678E9D500A99473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A622702678EE8B00A99473 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36A622A62678F0F200A99473 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		36A622CB2679059900A99473 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		36A622CF26792E1E00A99473 /* MoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
+		36A622D42679F4C900A99473 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		36A622F32679FD8900A99473 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		36A622F42679FD8900A99473 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		36A6232E267A20B700A99473 /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
+		36A62332267A33EF00A99473 /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
+		36A62351267A92BF00A99473 /* DetailTableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableVCell.swift; sourceTree = "<group>"; };
+		36A62352267A92BF00A99473 /* DetailTableVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableVCell.xib; sourceTree = "<group>"; };
+		36A62370267B3CF100A99473 /* FavoriteMoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMoviesVC.swift; sourceTree = "<group>"; };
+		36A62373267B484300A99473 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		36A62390267B793400A99473 /* pinsoftcase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pinsoftcase.entitlements; sourceTree = "<group>"; };
+		60E23CA3A27B729011C92EBF /* Pods_pinsoftcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinsoftcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +64,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57899C2680D59933DA55146 /* Pods_pinsoftcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EAD7A6C5AAC0113FE34D4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E23CA3A27B729011C92EBF /* Pods_pinsoftcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		36A6224B2678E9D100A99473 = {
 			isa = PBXGroup;
 			children = (
 				36A622562678E9D200A99473 /* pinsoftcase */,
 				36A622552678E9D200A99473 /* Products */,
+				375E06F24426F3B1204EC0B3 /* Pods */,
+				05EAD7A6C5AAC0113FE34D4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +100,71 @@
 		36A622562678E9D200A99473 /* pinsoftcase */ = {
 			isa = PBXGroup;
 			children = (
+				36A62390267B793400A99473 /* pinsoftcase.entitlements */,
+				36A622F22679FD6800A99473 /* TableViewCells */,
+				36A622D32679F4B000A99473 /* Models */,
+				36A622AA2678F19D00A99473 /* ViewControllers */,
+				36A622A52678F0DE00A99473 /* Utils */,
 				36A622572678E9D200A99473 /* AppDelegate.swift */,
 				36A622592678E9D200A99473 /* SceneDelegate.swift */,
-				36A6225B2678E9D200A99473 /* ViewController.swift */,
 				36A6225D2678E9D200A99473 /* Main.storyboard */,
 				36A622632678E9D500A99473 /* Assets.xcassets */,
 				36A622652678E9D500A99473 /* LaunchScreen.storyboard */,
 				36A622682678E9D500A99473 /* Info.plist */,
+				36A622702678EE8B00A99473 /* GoogleService-Info.plist */,
 				36A622602678E9D200A99473 /* pinsoftcase.xcdatamodeld */,
 			);
 			path = pinsoftcase;
+			sourceTree = "<group>";
+		};
+		36A622A52678F0DE00A99473 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				36A622A62678F0F200A99473 /* Constants.swift */,
+				36A62373267B484300A99473 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		36A622AA2678F19D00A99473 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				36A622CF26792E1E00A99473 /* MoviesVC.swift */,
+				36A62332267A33EF00A99473 /* URLManager.swift */,
+				36A622CB2679059900A99473 /* NetworkMonitor.swift */,
+				36A6225B2678E9D200A99473 /* SplashVC.swift */,
+				36A6232E267A20B700A99473 /* MovieDetailVC.swift */,
+				36A62370267B3CF100A99473 /* FavoriteMoviesVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		36A622D32679F4B000A99473 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36A622D42679F4C900A99473 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36A622F22679FD6800A99473 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				36A622F32679FD8900A99473 /* TableViewCell.swift */,
+				36A622F42679FD8900A99473 /* TableViewCell.xib */,
+				36A62351267A92BF00A99473 /* DetailTableVCell.swift */,
+				36A62352267A92BF00A99473 /* DetailTableVCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		375E06F24426F3B1204EC0B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B09F596E3E04F945D8ADAD7 /* Pods-pinsoftcase.debug.xcconfig */,
+				17F1966A8594165F2F48EFF4 /* Pods-pinsoftcase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36A6226B2678E9D500A99473 /* Build configuration list for PBXNativeTarget "pinsoftcase" */;
 			buildPhases = (
+				0AFAD39E23C5A6D6A7561086 /* [CP] Check Pods Manifest.lock */,
 				36A622502678E9D200A99473 /* Sources */,
 				36A622512678E9D200A99473 /* Frameworks */,
 				36A622522678E9D200A99473 /* Resources */,
+				374A1963F04BA73723DC6272 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,7 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A62354267A92C000A99473 /* DetailTableVCell.xib in Resources */,
 				36A622672678E9D500A99473 /* LaunchScreen.storyboard in Resources */,
+				36A622F62679FD8900A99473 /* TableViewCell.xib in Resources */,
+				36A622712678EE8B00A99473 /* GoogleService-Info.plist in Resources */,
 				36A622642678E9D500A99473 /* Assets.xcassets in Resources */,
 				36A6225F2678E9D200A99473 /* Main.storyboard in Resources */,
 			);
@@ -135,15 +237,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AFAD39E23C5A6D6A7561086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pinsoftcase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		374A1963F04BA73723DC6272 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pinsoftcase/Pods-pinsoftcase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pinsoftcase/Pods-pinsoftcase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pinsoftcase/Pods-pinsoftcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36A622502678E9D200A99473 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A6225C2678E9D200A99473 /* ViewController.swift in Sources */,
+				36A622A72678F0F200A99473 /* Constants.swift in Sources */,
+				36A6225C2678E9D200A99473 /* SplashVC.swift in Sources */,
 				36A622582678E9D200A99473 /* AppDelegate.swift in Sources */,
+				36A62371267B3CF200A99473 /* FavoriteMoviesVC.swift in Sources */,
+				36A622F52679FD8900A99473 /* TableViewCell.swift in Sources */,
+				36A62333267A33EF00A99473 /* URLManager.swift in Sources */,
+				36A622D52679F4C900A99473 /* Models.swift in Sources */,
+				36A62353267A92C000A99473 /* DetailTableVCell.swift in Sources */,
 				36A6225A2678E9D200A99473 /* SceneDelegate.swift in Sources */,
+				36A6232F267A20B800A99473 /* MovieDetailVC.swift in Sources */,
 				36A622622678E9D200A99473 /* pinsoftcase.xcdatamodeld in Sources */,
+				36A622CC2679059900A99473 /* NetworkMonitor.swift in Sources */,
+				36A622D026792E1E00A99473 /* MoviesVC.swift in Sources */,
+				36A62374267B484300A99473 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +441,11 @@
 		};
 		36A6226C2678E9D500A99473 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B09F596E3E04F945D8ADAD7 /* Pods-pinsoftcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pinsoftcase/pinsoftcase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X6WPB9RQW;
 				INFOPLIST_FILE = pinsoftcase/Info.plist;
@@ -300,15 +456,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.canozmen.pinsoftcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		36A6226D2678E9D500A99473 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F1966A8594165F2F48EFF4 /* Pods-pinsoftcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pinsoftcase/pinsoftcase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X6WPB9RQW;
 				INFOPLIST_FILE = pinsoftcase/Info.plist;
@@ -319,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.canozmen.pinsoftcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
