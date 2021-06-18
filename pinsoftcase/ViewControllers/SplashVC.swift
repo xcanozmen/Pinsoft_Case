@@ -35,14 +35,14 @@ class SplashVC: UIViewController {
         super.viewDidLayoutSubviews()
         imageView.center = view.center
         if isConnect{
-            DispatchQueue.main.asyncAfter(deadline: .now()+0.5, execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now()+1, execute: {
                 self.animate()
             })
         }
     }
     private func animate() {
-        UIView.animate(withDuration: 2.5, animations: {
-            let size = self.view.frame.size.width * 3
+        UIView.animate(withDuration: 2, animations: {
+            let size = self.view.frame.size.width * 2
             let diffX = size - self.view.frame.size.width
             let diffY = self.view.frame.size.height - size
             
@@ -54,7 +54,7 @@ class SplashVC: UIViewController {
             )
         },completion: { done in
             if done {
-                DispatchQueue.main.asyncAfter(deadline: .now()+2.5, execute: {
+                DispatchQueue.main.asyncAfter(deadline: .now()+2, execute: {
                     if self.isConnect{
                         self.performSegue(withIdentifier: "toMoviesVC", sender: nil)
                     }
