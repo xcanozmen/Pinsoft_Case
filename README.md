@@ -8,7 +8,7 @@ Projeyi MVC mimarisi kullanarak geliştirdim.
 
 İlk olarak Splash Ekranında internet bağlantısını kontrol edebilmek için NetworkMonitor Classını oluşturdum. Eğer kullanıcın internet bağlantısı var ise Splash Screen animasyonunu başlatıp animasyon bitince bir sonraki ekrana gönderdim.
 
-Anasayfa ekranında Searchbara film adı yazılıp arama butonuna basıldığı zaman responsu alına kadar loading animasyonu gösterdim.Requestin atılacağı urle erişmek için URLManager Classını oluşturdum bu Classta Singleton patern kullandım.
+Anasayfa ekranında Searchbara film adı yazılıp arama butonuna basıldığı zaman response'u alına kadar loading animasyonu gösterdim.Requestin atılacağı urle erişmek için URLManager Classını oluşturdum bu Classta Singleton patern kullandım.
 
 Gelen filmleri basılı tutarak favori ekleme/çıkarma özelliği ekledim. Favori olarak eklenen filmlerin ID lerini CoreData kullanarak kullanıcının cihazında sakladım. ViewController ayağa kalktığında bu bilgileri cihazın için çekerek arama yaptığı filmlerde daha önce favori olarak eklediği film var ise filmin gösterildi cell'e yıldız ekledim.
 
