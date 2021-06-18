@@ -12,7 +12,7 @@ Anasayfa ekranında Searchbara film adı yazılıp arama butonuna basıldığı 
 
 Gelen filmleri basılı tutarak favori ekleme/çıkarma özelliği ekledim. Favori olarak eklenen filmlerin ID lerini CoreData kullanarak kullanıcının cihazında sakladım. ViewController ayağa kalktığında bu bilgileri cihazın için çekerek arama yaptığı filmlerde daha önce favori olarak eklediği film var ise filmin gösterildi cell'e yıldız ekledim.
 
-Filmin detaylarının gösterildiği ekrandada URLManagerdan eriştiğim url'den response gelene kadar loading gösterdim. Ve FirebaseAnalytics logEvent olarak filmin önemli bilgilerini gönderdim.
+Filmin detaylarının gösterildiği ekrandada URLManagerdan eriştiğim url'den response gelene kadar loading gösterdim. Ve FirebaseAnalytics'e logEvent olarak filmin önemli bilgilerini gönderdim.
 
 Ek olarak bir ekran daha tasarladım. Özellik olarak tasarladığım bu ekranda kullanıcın sadece favori olarak eklediği filmleri liste halinde kullanıcıya gösterdim, tıklanılan filmin fotoğrafını Firebase Storage'a kaydettim ve eklenen fotoğrafının urli ile birlikte filmin diğer datalarını RealtimeDatabase e kayıt ettim.
 
