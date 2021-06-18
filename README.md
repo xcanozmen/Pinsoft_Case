@@ -6,7 +6,7 @@ Proje Özeti
 
 Projeyi MVC mimarisi kullanarak geliştirdim.
 
-İlk olarak Splash Ekranında internet bağantısını kontrol edebilmek için NetworkMonitor Classını oluşturdum. Eğer kullanıcın internet bağlantısı var ise Splash Screen animasyonunu başlatıp animasyon bitince bir sonraki ekrana gönderdim.
+İlk olarak Splash Ekranında internet bağlantısını kontrol edebilmek için NetworkMonitor Classını oluşturdum. Eğer kullanıcın internet bağlantısı var ise Splash Screen animasyonunu başlatıp animasyon bitince bir sonraki ekrana gönderdim.
 
 Anasayfa ekranında Searchbara film adı yazılıp arama butonuna basıldığı zaman responsu alına kadar loading animasyonu gösterdim.Requestin atılacağı urle erişmek için URLManager Classını oluşturdum bu Classta Singleton patern kullandım.
 
