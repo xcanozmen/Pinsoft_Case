@@ -1,6 +1,6 @@
 # Pinsoft_Case
 
-# Projeyi Dev Branch'i üzerinden indirmeden inceleyebilirsiniz
+# Projeyi Dev Branch'i üzerinden inceleyebilirsiniz
 
 Proje Özeti
 
