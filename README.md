@@ -14,7 +14,7 @@ Gelen filmleri basılı tutarak favori ekleme/çıkarma özelliği ekledim. Favo
 
 Filmin detaylarının gösterildiği ekrandada URLManagerdan eriştiğim url'den response gelene kadar loading gösterdim. Ve FirebaseAnalytics'e logEvent olarak filmin önemli bilgilerini gönderdim.
 
-Ek olarak bir ekran daha tasarladım. Özellik olarak tasarladığım bu ekranda kullanıcın sadece favori olarak eklediği filmleri liste halinde kullanıcıya gösterdim, tıklanılan filmin fotoğrafını Firebase Storage'a kaydettim ve eklenen fotoğrafının urli ile birlikte filmin diğer datalarını RealtimeDatabase e kayıt ettim.
+Ek olarak bir ekran daha tasarladım. Özellik olarak tasarladığım bu ekranda kullanıcının sadece favori olarak eklediği filmleri liste halinde kullanıcıya gösterdim, tıklanılan filmin fotoğrafını Firebase Storage'a kaydettim ve eklenen fotoğrafının urli ile birlikte filmin diğer datalarını RealtimeDatabase e kayıt ettim.
 
 Firebase Notification olarak Appdelegate e gerekli fonksiyonları ekledim fakat Apple Developer Hesabımın süresi dolduğu için Firebase'e gerekli setifikaları yükleyemedim.
 
