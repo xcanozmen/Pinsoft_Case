@@ -10,7 +10,7 @@ Projeyi MVC mimarisi kullanarak geliştirdim.
 
 Anasayfa ekranında Searchbara film adı yazılıp arama butonuna basıldığı zaman responsu alına kadar loading animasyonu gösterdim.Requestin atılacağı urle erişmek için URLManager Classını oluşturdum bu Classta Singleton patern kullandım.
 
-Gelen filmleri basılı tutarak favori ekleme/çıkarma özelliği ekledim. Favori olarak eklenen filmlerin ID lerini CoreData kullanarak kullanıcının cihazında sakladım. ViewController ayağa kalktığında bu bilgileri cihazın için çekerek arama yaptığı filmlerde daha önce favori olarak eklediği film var ise filmin gösterildi cell'e yıldız ekledim.
+Gelen filmleri basılı tutarak favori ekleme/çıkarma özelliği ekledim. Favori olarak eklenen filmlerin ID lerini CoreData kullanarak kullanıcının cihazında sakladım. ViewController ayağa kalktığında bu bilgileri cihazın içinden çekerek arama yaptığı filmlerde daha önce favori olarak eklediği film var ise filmin gösterildi cell'e yıldız ekledim.
 
 Filmin detaylarının gösterildiği ekrandada URLManagerdan eriştiğim url'den response gelene kadar loading gösterdim. Ve FirebaseAnalytics logEvent olarak filmin önemli bilgilerini gönderdim.
 
